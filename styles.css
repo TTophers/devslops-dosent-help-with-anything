@@ -907,9 +907,38 @@ select {
 .front-left {
   display: none;
 }
+.textleft {
+  max-width: 350px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center; 
+  margin: 0px auto;
+}
+.textleft>.text {
+  font-size: 50px;
+  margin-top: 100px; 
+}
+
+.textleft>.text2 {
+  font-size: 20px;
+  color: grey;
+}
+
+.container {
+  margin-top: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
 .tabletflex {
   flex-direction: column; 
   align-items: flex-start; 
+  margin-bottom: 300px;
+ 
+  align-items: center; 
+  justify-content: center;
 }
 .asa, .google-A, .google,  .atlassian, .calendar,  .paypal, .weave {
   left: 0;
@@ -917,8 +946,48 @@ select {
   bottom: 0;
   top: 0;
 }
+.asa {
+  top: 100px;
+}
+.google-A {
+  top: 200px;
+}
+.google {
+  left: 50px;
+  top: 50px;
+}
+.atlassian {
+  top: 150px;
+}
+.calendar {
+  top: 300px;
+}
+.paypal {
+  top: 120px;
+}
 .text-right {
   justify-content: center; 
   margin-top: 20px; 
 }
+.benifitcards {
+  justify-content: center; 
+}
+
+.responcive,
+.cusotm,
+.premium,
+.doc {
+  flex: 0 1 calc(50% - 20px); 
+  box-sizing: border-box; 
+}
+}
+
+
+@media screen and (max-width: 699px) {
+  .responcive,
+  .cusotm,
+  .premium,
+  .doc {
+    flex: 1 1 100%; 
+  }
 }
