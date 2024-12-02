@@ -891,7 +891,9 @@ select {
 }
 
 .con {
-  margin: 0px 0px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
 }
 .mdemo {
   display: none;
@@ -905,14 +907,18 @@ select {
 .front-left {
   display: none;
 }
-.secondnav {
-  display: flex;
+.tabletflex {
+  flex-direction: column; 
+  align-items: flex-start; 
 }
-.front img {
-  display: block;
-  margin-left: 0px;
+.asa, .google-A, .google,  .atlassian, .calendar,  .paypal, .weave {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
 }
-
-
-
+.text-right {
+  justify-content: center; 
+  margin-top: 20px; 
+}
 }
