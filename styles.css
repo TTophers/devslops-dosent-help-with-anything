@@ -551,25 +551,34 @@ h1>p {
   color: #ffffff;
   font-size: 25px;
   max-width: 500px;
-  padding-left: 100px;
+
   padding-top: 0px;
-  margin-top: 0;
+  margin-top: 20px;
+  margin: 0px 0px;
 }
 
 .charlotte {
   color: #ffffff;
   font-size: larger;
-}
 
+}
+.charlotte, span, p {
+ padding-left: 2%;
+}
 .charlotte p {
   font-size: 15px;
   color: #6C757D;
 }
-
+ .threesmallppics {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  
+}
 .threesmallppics img {
   border-radius: 55px;
   margin: 30px;
-  margin-left: 100px;
+  margin-top: 40px;
 }
 
 .rightfourm {
@@ -688,6 +697,7 @@ select {
   margin-top: 100px;
   gap: 100px;
   text-align: left;
+  flex-wrap: wrap;
 }
 
 .col1 {
@@ -980,9 +990,112 @@ select {
   flex: 0 1 calc(50% - 20px); 
   box-sizing: border-box; 
 }
+.softwareforppl {
+  flex-direction: column;
+  margin: 0px;
+  margin-top: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.fontmakes {
+  text-align: center;
+  margin: 0px auto;
+}
+.fontmakes > button {
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+.fontmakes >img {
+  margin: 0px;
+}
+.screenshot > img {
+  margin-left: 0px;
+  width: 90%;
+}
+.bigvideo > img {
+  margin: 0px auto;
+  width: 100%;
+}
+.hubspottext, img {
+  margin: 0px auto;
+  justify-content: center;
+}
+.hubspot {
+  padding: 0;
+  margin: 0;
+  margin-top: 650px;
+  text-align: center;
 }
 
+.uber-flex img {
+  height: 40px;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+.left-bigbox {
+  width: 100%;
+  margin: 0px auto;
+}
+.pay-flex{
+  flex-direction: column;
+}
+.prefoot {
+  flex-direction: column;
+  height: auto;
+}
+.lefthire {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
 
+}
+.hireus {
+  padding: 0;
+  margin-left: auto;
+}
+.hireus h1 {
+  padding: 0;
+  margin-left: auto;
+  width: 350px;
+}
+.lovefront {
+
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.threesmallppics img {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin: 0px;
+}
+.charlotte {
+  flex-direction: row;
+  margin-left: auto;
+  width: 400px;
+  margin-top: 20px;
+}
+ 
+.footer {
+  gap: 50px;
+}
+
+.col1 {
+  flex: 1 1 250px; 
+}
+
+.col2,
+.col3 {
+  flex: 1 1 200px; 
+}
+
+.col4,
+.col5 {
+  flex: 1 1 calc(50% - 25px); 
+}
+}
 @media screen and (max-width: 699px) {
   .responcive,
   .cusotm,
