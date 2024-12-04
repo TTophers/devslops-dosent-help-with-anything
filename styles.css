@@ -693,11 +693,11 @@ select {
 
 .footer {
   display: flex;
-  flex-direction: row;
+
   margin-top: 100px;
   gap: 100px;
   text-align: left;
-  flex-wrap: wrap;
+
 }
 
 .col1 {
@@ -711,7 +711,7 @@ select {
 .col4,
 .col5 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
 }
 
@@ -1104,3 +1104,401 @@ select {
     flex: 1 1 100%; 
   }
 }
+@media screen and (min-width: 300px) and (max-width: 699px) {
+
+.con {
+margin: 0px 50px;
+}
+.rightpricebox  {
+  gap: 0 !important;
+}
+.rightpricebox div {
+  max-width: 300px;
+}
+
+
+
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  width: 36px;
+  height: 36px;
+
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+display: block;
+position: absolute;
+list-style: none;
+width: 100%;
+height: 2px;
+
+background-color: #616161;
+
+transition-duration: .25s;
+}
+.menu__btn > span::before {
+content: '';
+top: -8px;
+}
+.menu__btn > span::after {
+content: '';
+top: 8px;
+}
+
+.con {
+margin: 0px 20px;
+display: flex;
+flex-direction: column;
+}
+.mdemo {
+display: none;
+}
+.topnavR {
+display: none;
+}
+.topflex {
+display: block;
+}
+.front-left {
+display: none;
+}
+.textleft {
+  max-width: 100%;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center; 
+  margin: 0px auto;
+
+}
+.textleft>.text {
+  font-size: 80px;
+  margin-top: 100px; 
+}
+
+.textleft>.text2 {
+  font-size: 40px;
+  color: grey;
+}
+.container {
+  margin-top: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+/*
+.container>.vid>button>img {
+  height: 50px;
+  margin-right: 5px;
+}
+.container>.vid>button {
+  height: 50px;
+  width: 100px;
+}
+
+Hello! if you read this i cannot get this button to change, ive spent 2 days on this one button 
+i have no idea why i cant select it in css, but, eerything elce should be propr
+  */
+.tabletflex {
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin-bottom: 300px;
+ 
+  align-items: center; 
+  justify-content: center;
+}
+.asa, .google-A, .google,  .atlassian, .calendar,  .paypal, .weave {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  
+}
+.asa img, .google-A img, .google img,  .atlassian img, .calendar img,  .paypal img, .weave img {
+  height: 120px;
+}
+.asa {
+  top: 100px;
+}
+.google-A {
+  top: 200px;
+}
+.google {
+  left: 50px;
+  top: 50px;
+}
+.atlassian {
+  top: 150px;
+}
+.calendar {
+  top: 300px;
+}
+.paypal {
+  top: 120px;
+}
+
+.text-right {
+  justify-content: center; 
+  margin-top: 20px; 
+}
+.keybenefits>h1{
+  margin: 10px;
+  font-size: 50px;
+}
+.keybenefits>h5 {
+  margin: 10px;
+  font-size: 30px;
+}
+.responcive,
+.cusotm,
+.premium,
+.doc {
+  height: 500px;
+  width: 700px;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 35px;
+}
+.benifitcards img {
+  height: 200px;
+}
+.lowertext {
+  margin-bottom: 5px;
+}
+.softwareforppl {
+  flex-direction: column;
+  margin: 0px;
+  margin-top: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.fontmakes {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 40px;
+  max-width: 60%;
+}
+.fontmakes > button {
+  margin: 50px auto;
+  margin-bottom: 20px;
+}
+.screenshot >img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.whyfront {
+  font-size: 40px;
+  max-width: 80%;
+}
+.bigbubble > img {
+  display: none;
+}
+.bigvideo > img {
+  margin: 0px auto;
+  width: 100%;
+}
+.hubspottext, img {
+  margin: 0px auto;
+  justify-content: center;
+}
+.hubspotapreaciation {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.hubspot {
+  padding: 0;
+  margin: 0;
+  margin-top: 650px;
+  text-align: center;
+}
+.uberandnthings .trusted {
+  font-size: 50px;
+  text-align: center;
+}
+.uber-flex {
+  flex-direction: column;
+}
+.uber-flex img {
+  height: 100px;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+.Price, h1 h5 {
+  font-size: 40px;
+}
+.nowrap {
+  font-size: 100px;
+}
+.left-bigbox {
+  max-width: 100%;
+  margin: 10px 10px;
+  
+}
+.left-bigbox .special {
+  font-size: 60px;
+  margin-bottom: 100px;
+}
+button {
+  height: 90px;
+  width: 200px;
+  font-size: 30px;
+}
+button img  {
+  height: 60px;
+
+}
+
+.left-bigbox .special2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.pay-flex{
+  flex-direction: column;
+}
+.rightpricebox {
+  display: flex;
+  flex-direction: column;
+}
+.rightpricebox div {
+  max-width: 70%;
+  text-align: center;
+  margin: 0px auto;
+}
+.prefoot {
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin: 0px auto;
+
+}
+.hireus, .lovefront, .charlotte, span, p {
+  font-size: 40px;
+}
+.lefthire {
+  margin: 0px auto;
+  max-width: auto;
+}
+.rightfourm {
+ display: flex;
+ flex-direction: column;
+ max-width: 100%;
+ margin: 10px auto;
+ font-size: 30px;
+}
+input {
+  height: 40px;
+  font-size: 40px;
+}
+.dropdowns, select{
+height: 80px;
+font-size: 40px;
+}
+.form-group {
+  flex-direction: column;
+}
+.comment-container, textarea {
+  font-size: 40px;
+}
+.lefthireus,
+hr {
+  max-width: 100%;
+}
+.threesmallppics {
+  margin: 0px auto;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+.col1 {
+  margin-bottom: 80px;
+}
+.belowflex, .extraflex {
+  font-size: 25px;
+}
+}
+
+
+
+/*
+.lefthireus {
+  max-width: 400px;
+  padding: 100px;
+}
+
+.lefthireus,
+hr {
+  max-width: 400px;
+  margin: 0;
+
+}
+
+.hireus {
+  padding: 100px;
+  max-width: 500px;
+}
+
+.hireus h1 {
+  color: white;
+}
+
+.hireus,
+h1>p {
+  color: #444a4f;
+}
+
+.lovefront {
+  color: #ffffff;
+  font-size: 25px;
+  max-width: 500px;
+
+  padding-top: 0px;
+  margin-top: 20px;
+  margin: 0px 0px;
+}
+
+.charlotte {
+  color: #ffffff;
+  font-size: larger;
+
+}
+.charlotte, span, p {
+ padding-left: 2%;
+}
+.charlotte p {
+  font-size: 15px;
+  color: #6C757D;
+}
+ .threesmallppics {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  
+}
+.threesmallppics img {
+  border-radius: 55px;
+  margin: 30px;
+  margin-top: 40px;
+}
+*/
