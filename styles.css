@@ -380,8 +380,8 @@ margin-bottom: 100px;
 }
 
 .picture-with-dots>.dots3 {
-  width: 250px;
-  height: 800px;
+
+  height: 650px;
   left: 100px;
   z-index: 1;
   position: absolute;
@@ -715,7 +715,7 @@ select {
 .yeswrap {
   display: flex;
   justify-content: center;
-
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -1097,29 +1097,14 @@ margin-right: auto;
 
 }
  
-.footer {
-  flex-direction: row;
-  align-items: center;
-  gap: 50px;
-}
 
-.yeswrap {
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-}
-
-.col2, .col3, .col4, .col5 {
-  align-items: center;
-  width: 100%;
-}
 }
 
 @media screen and (max-width: 767px) {
 
 
   .con {
-    margin: 0px 50px;
+    margin: 0px 0px;
     }
     .rightpricebox  {
       gap: 0 !important;
@@ -1166,11 +1151,7 @@ margin-right: auto;
     top: 8px;
     }
     
-    .con {
-    margin: 0px 20px;
-    display: flex;
-    flex-direction: column;
-    }
+
     .mdemo {
     display: none;
     }
@@ -1194,12 +1175,12 @@ margin-right: auto;
     
     }
     .textleft>.text {
-      font-size: 80px;
+      font-size: 30px;
       margin-top: 100px; 
     }
     
     .textleft>.text2 {
-      font-size: 40px;
+      font-size: 20px;
       color: grey;
     }
     .container {
@@ -1210,15 +1191,15 @@ margin-right: auto;
     
     }
     .tabletflex .vid button {
-      height: 90px;
-      width: 200px;
-      font-size: 20px;
+      height: 40px;
+      width: 100px;
+      font-size: 11px;
   }
   .tabletflex .vid button img{
-    height: 60px;
+    height: 30px;
 }
 .tabletflex .learnmore{
-font-size: 30px;
+font-size: 20px;
 }
     .tabletflex {
       flex-direction: column; 
@@ -1236,7 +1217,7 @@ font-size: 30px;
       
     }
     .asa img, .google-A img, .google img,  .atlassian img, .calendar img,  .paypal img, .weave img {
-      height: 120px;
+      height: 50px;
     }
     .asa {
       top: 100px;
@@ -1267,24 +1248,25 @@ font-size: 30px;
 
     .keybenefits>h1{
       margin: 10px;
-      font-size: 50px;
+      font-size: 30px;
     }
     .keybenefits>h5 {
       margin: 10px;
-      font-size: 30px;
+      font-size: 20px;
+      text-align: center;
     }
     .responcive,
     .cusotm,
     .premium,
     .doc {
-      height: 600px;
-      width: 800px;
+      height: 350px;
+      width: 300px;
       padding: 10px;
       margin-top: 50px;
-      font-size: 35px;
+      font-size: 20pxpx;
     }
     .keybenefits img {
-      height: 300px;
+      height: 100px;
       width: auto; 
   }
     .benifitcards {
@@ -1306,7 +1288,7 @@ font-size: 30px;
     .fontmakes {
       text-align: center;
       margin: 0px auto;
-      font-size: 40px;
+      font-size: 20px;
       max-width: 60%;
     }
     .fontmakes > button {
@@ -1380,19 +1362,75 @@ font-size: 30px;
       margin-bottom: 100px;
     }
     button {
-      height: 90px;
-      width: 200px;
-      font-size: 20px;
+      height: 30px;
+      width: 100px;
+      font-size: 11px;
     }
     button img  {
-      height: 60px;
+      height: 20px;
     
     }
-    
-    .left-bigbox .special2 {
+    .screenshot {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+    .whyfront > h1 {
+      font-size: 30px;
+    }
+    .whyfront >h5 {
+      font-size: 15px;
+    }
+    .bigvideo {
+      max-width: 80%;
+    }
+    .picture-with-dots > .woman_three {
+margin: 0px;
+padding: 0;
+    }
+    .picture-with-dots >.dots3 {
+left: 0;
+margin-left: 26px;
+margin-top: 26px;
+    }
+    .picture-with-dots  img {
+      height: 200px;
+    }
+    .picture-with-dots  .dots3{
+      height: 200px;
+    }
+    .hubspot {
+      margin-top: 200px;
+    }
+    .hubspotapreaciation {
+      font-size: 15px;
+      margin-top: none;
+    }
+    .uberandnthings >.trusted {
+      font-size: 20px;
+    }
+  .uber, img{
+      height: 10px;
+    }
+    .Price > h1 {
+      font-size: 30px;
+    }
+    .Price > h5 {
+      font-size: 15px;
+    }
+    .left-bigbox > .nowrap {
       font-size: 40px;
+    }
+    .left-bigbox > .nowrap > span {
+      font-size: 30px;
+    }
+    .left-bigbox .special {
+      font-size: 20px;
       margin-top: 10px;
     }
+    .left-bigbox {
+      width: 300px;
+    }
+
     .pay-flex{
       flex-direction: column;
     }
@@ -1404,62 +1442,60 @@ font-size: 30px;
       max-width: 70%;
       text-align: center;
       margin: 0px auto;
+      font-size: 20px;
+    }
+    .rightpricebox div > h1 {
+      font-size: 25px;
+    }
+    .rightpricebox div > p {
+      font-size: 20px;
     }
     .prefoot {
       flex-direction: column;
-      height: auto;
+      height: 1200px;
       text-align: center;
       justify-content: center;
       margin: 0px auto;
-    
+  
     }
     .hireus, .lovefront, .charlotte, span, p {
-      font-size: 40px;
+      font-size: 20px;
     }
     .lefthire {
-      margin: 0px auto;
-      max-width: auto;
+      margin-left: 0px;
+      max-width: 200px;
+    }
+    .hireus > hr {
+      max-width: 300px;
+
+    }
+    .charlotte {
+      display: none;
     }
     .rightfourm {
      display: flex;
      flex-direction: column;
-     max-width: 100%;
-     margin: 10px auto;
-     font-size: 30px;
+     max-width: 300px;
+     margin: 0px auto;
     }
-    input {
-      height: 40px;
-      font-size: 40px;
+    .rightfourm >h1 {
+      font-size: 20px;
     }
-    .dropdowns, select{
-    height: 80px;
-    font-size: 40px;
-    }
-    .form-group {
-      flex-direction: column;
-    }
-    .comment-container, textarea {
-      font-size: 40px;
-    }
-    .lefthireus,
-    hr {
-      max-width: 100%;
-    }
-    .threesmallppics {
-      margin: 0px auto;
-      justify-content: center;
-    }
-    .footer {
-      display: flex;
-      flex-direction: column;
-      font-size: 30px;
-    }
-    .col1 {
-      margin-bottom: 80px;
-    }
-    .belowflex, .extraflex {
-      font-size: 25px;
-    }
+ .name-inputs> input {
+  max-width: 130px;
+  margin-left: none;
+ }
+ .dropdowns {
+  gap: 0px;
+ }
+ .comment-container {
+  margin-top: 0px;
+ }
+ .col2, .col3, .col4, .col5 {
+  margin-left: none;
+  font-size: 10px;
+ }
 }
 
 /*i hope it works, im commiting this into git hub but it got a little glichy and dident say what was changed and whats was added. im still going to commit and push it but i dont know whats about to happen*/
+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
